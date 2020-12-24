@@ -1,0 +1,26 @@
+{
+  "name": "Image rehoster",
+  "version": "1.0",
+  "description": "Rehost your Image to imgur.com by right clicking on any image and clicking on 'Rehost image'",
+  "permissions": ["storage", "contextMenus", "tabs"],
+  "background": {
+    "scripts": ["index.js"],
+    "persistent": true
+  },
+    "page_action": {
+    "default_popup": "index.html",
+	"default_icon": {
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
+    }
+  },
+  "icons": {
+    "16": "images/16.png",
+    "32": "images/32.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "manifest_version": 2
+}
